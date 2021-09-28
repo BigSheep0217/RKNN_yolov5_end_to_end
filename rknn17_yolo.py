@@ -13,7 +13,7 @@ if __name__ == "__main__":
     img_h, img_w = 288, 288
 
     rknn = RKNN()
-    ret = rknn.load_rknn('./plate.rknn')
+    ret = rknn.load_rknn('./plate_tmp.rknn')
 
     # Set inputs
     img = cv2.imread(img_path)
